@@ -1,0 +1,97 @@
+body {
+    background-color: #F7ECDE;
+}
+
+.address{
+    font-family: "Pacifico", cursive;
+    position: relative;
+   
+    width: fit-content;
+    left: 50%;
+    transform: translate(-50%);
+}
+.address h1{
+position: relative;
+z-index: 666;
+font-size: 50px;
+}
+
+.address div {
+    width: 270px;
+    height: 15px;
+    background-color: #FEC260;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all .5s;
+}
+
+.address:hover div {
+    height: 40px;
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted rgb(0, 0, 0);
+    color: #000;
+    background-color: transparent;
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+
+  ::selection {
+    background-color: #FEC260;
+  }
+  .address-2 {
+    font-family: "Righteous", sans-serif;
+font-size: 25px;
+color: #79A952;
+
+position: relative;
+  }
+
+  /* .address-2::after{
+    content: '🔗';
+    display: block;
+    font-size: 20px;
+    color: #79A952; 
+    position: absolute;
+  top: 2px;
+  left: 63%;
+   
+  }
+  .address-2::before{
+    content: '🔗';
+    display: block;
+    font-size: 20px;
+    color: #79A952; 
+    position: absolute;
+  top: 2px;
+  left: 35%;
+   
+  } */
+
+label {
+    font-family: "PT Sans Caption", sans-serif;
+font-weight: 600;
+}
+
+.btn-danger{
+    width: 150px;
+   
+}
+
+.span-1, .span-2 {
+  font-size: 25px;
+  color: #79A952;
+}
+.span-1 {
+  margin-right: 2px;
+}
+.span-2 {
+  margin-left: 2px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/download.png"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmark</title>
+</head>
+<body>
+  
+ 
+    <div class=" mt-5 address d-inline-block ">
+        <h1>Bookmarker</h1>
+        <div></div>
+    </div>
+  <hr>
+  <div class=" mt-5 text-center ">
+    <span class="span-1 "><i class="fa-solid fa-bookmark"></i></span>
+    <h1 class="address-2 d-inline-block"> Bookmark your favorite sites </h1>
+    <span class="span-2 "><i class="fa-solid fa-bookmark"></i></span>
+</div>
+
+
+
+<div class="container">
+    <div class="d-flex flex-column ">
+        <div class="ms-3">
+            <span class="me-1"><i class="fa-solid fa-file"></i></span>
+            <label for="bookMarkName"> Site Name</label>
+        </div>
+    <input type="text" class="w-100  m-2 form-control  " placeholder ="Bookmark Name" id ="bookMarkName">
+    </div>
+    <div class="d-flex flex-column ">
+        <div class="ms-3">
+            <span class="me-1"><i class="fa-solid fa-link"></i></span>
+            <label for="bookMarkName"> Site URL</label>
+        </div>
+    <input type="text" class="w-100  m-2 form-control  " placeholder ="Website URL" id ="webSiteLink">
+    </div>
+
+
+    <button onclick="addLink()" class="btn btn-danger m-auto d-block p-3 mt-2">Submit</button>
+</div>
+<HR></HR>
+<div class="container mt-5">
+    <table class="table table-striped align-middle text-center   ">
+        <thead >
+          <tr class="w-100">
+            <th>index</th>
+            <th>Website Name</th>
+          
+            <th>Visit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="myData">
+        
+          <!-- <tr>
+            <td>0</td>
+            <td>facebook</td>
+           
+            <td><button class="btn btn-outline-warning">Update</button></td>
+            <td><button class="btn btn-outline-danger">Delete</button></td>
+          </tr> -->
+       
+        </tbody>
+      </table>
+</div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
